@@ -1,0 +1,5 @@
+def get_hidden_card(cardnumber=1234123412341234, cut=4):
+    return (cut * '*') + cardnumber[12:]
+
+get_hidden_card('2034399002125581', 1)
+print(get_hidden_card('2034399002125581', 1))
